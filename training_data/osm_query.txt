@@ -1,0 +1,20 @@
+Overpass API query
+https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example
+
+[timeout:25]
+[out:xml]
+;
+area(3600047796)->.area_0;
+(
+  node
+    ["sport"="basketball"]
+    (area.area_0);
+  relation
+    ["sport"="basketball"]
+    (area.area_0);
+);
+(
+  ._;
+  >;
+);
+out;
