@@ -4,7 +4,7 @@ Poster project to move past all the hello world tutorials I did the past period.
 
 git config credential.username 'Billy Everytee'
 
-#Resources
+# Resources  
 A great overview of [satellite image deep learning algorithms](https://github.com/robmarkcole/satellite-image-deep-learning).
 
 [Apache Sedona python examples](https://github.com/Imbruced/sedona-python-examples)
